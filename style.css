@@ -1,0 +1,250 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    /* Dark blue */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    background: #3F4867;
+    opacity: 0.9;
+}
+
+.rectangle {
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 546px;
+    height: 646px;
+    background: #F4F5F9;
+    border-radius: 15px;
+    padding-bottom: 53px;
+    margin-left: 20px;
+}
+.text_required {
+    width: 124px;
+    height: 19px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 157.02%;
+    /* identical to box height, or 19px */
+
+    text-align: right;
+
+    /* Gray 3 */
+
+    color: #B7B8C5;
+}
+
+.module_header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+img {
+    width: 14px;
+    height: 14px;
+}
+
+.text_auth {
+
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 139.02%;
+    margin: 10px 22px 10px 0;
+    text-align: center;
+
+    color: #090F24;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.form form {
+    text-align: center;
+}
+
+input {
+    width: 451px;
+    height: 44px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* Gray 3 */
+    margin-top: 14px;
+
+    border: 1px solid #B7B8C5;
+    border-radius: 57px;
+}
+input[type=email] {
+    padding: 3px 0 0 21px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 157.02%;
+    /* identical to box height, or 24px */
+
+
+    /* Gray 3 */
+
+    color: #B7B8C5;
+}
+input[type=submit] {
+    background: #74CCD8;
+    border-radius: 51px;
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 157.02%;
+    color: #FFFFFF;
+    border: none;
+
+    background-image: url("images/man-user 1.svg");
+    background-repeat: no-repeat;
+    background-position: left 146px top 12px;
+    outline: none;
+    padding: 0px 0 0 20px;
+}
+
+input[type=password] {
+    background-image: url("images/Eyes.svg");
+    background-repeat: no-repeat;
+    background-position: left 398px top 10px;
+    outline: none;
+    padding-left: 20px;
+
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 157.02%;
+    /* identical to box height, or 24px */
+
+
+    /* Gray 3 */
+
+    color: #B7B8C5;
+
+}
+
+
+input.google {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+
+    /* Dark */
+
+    color: #090F24;
+
+    background-image: url("images/Google.svg");
+    background-repeat: no-repeat;
+    background-position: left 117px top 11px;
+
+    border: 1px solid #E4E7EE;
+    /* Small shadow */
+
+    box-shadow: 0px 2px 4px rgba(43, 90, 99, 0.06);
+    border-radius: 48px;
+}
+
+input.facebook {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 157.02%;
+    /* or 25px */
+
+
+    /* White */
+
+    color: #FFFFFF;
+    background: #4867AA;
+    border-radius: 58px;
+    border: none;
+
+    background-image: url("images/f_1_.svg");
+    background-repeat: no-repeat;
+    background-position: left 93px top 14px;
+}
+
+.form .or {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 142%;
+    margin-top: 11px;
+
+    color: #090F24;
+    text-align: center;
+
+}
+
+.bottom_text {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 139.02%;
+    margin: 17px 0 0 30px;
+
+    color: #090F24;
+}
+
+.bottom_text2 {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 155.02%;
+
+    padding: 9px 42px 0 27px;
+
+    color: #686877;
+}
+
+.register {
+    width: 451px;
+    height: 45px;
+    margin-left: 30px;
+    /* Gray 1 light */
+
+    background: #F4F5F9;
+    /* Gray 3 */
+
+    border: 1px solid #B7B8C5;
+    border-radius: 47px;
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+
+    /* Text */
+
+    color: #686877;
+}
