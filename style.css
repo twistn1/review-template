@@ -26,7 +26,7 @@
     background: #F4F5F9;
     border-radius: 15px;
     padding-bottom: 53px;
-    margin-left: 20px;
+    margin-left: 90px;
 }
 .text_required {
     width: 124px;
@@ -247,4 +247,137 @@ input.facebook {
     /* Text */
 
     color: #686877;
+}
+
+/*review rectangle*/
+
+.rectangle_rev {
+    width: 546px;
+    height: 504.58px;
+
+    background: #F4F5F9;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding-bottom: 56px;
+    padding-top: 20px;
+}
+
+.module_header_rev {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pink_form {
+    padding-left: 47px;
+    padding-right: 47px;
+}
+
+.pink_stars {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 116px;
+    padding-right: 120px;
+    padding-top: 16px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.text_auth_rev {
+    font-family: 'Rubik', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 139.02%;
+    /* identical to box height, or 31px */
+    padding-top: 15px;
+    text-align: center;
+
+    /* Dark */
+
+    color: #090F24;
+}
+
+input[type=text] {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 155.02%;
+    /* or 23px */
+    padding: 0px 0 0 20px;
+
+
+    /* Gray 3 */
+
+    color: #B7B8C5;
+}
+
+
+
+.text_rev {
+    width: 451px;
+    height: 176.6px;
+    /* White */
+
+    background: #FFFFFF;
+    /* Gray 3 */
+
+    border: 1px solid #B7B8C5;
+    border-radius: 15px;
+
+}
+
+.text_rev::placeholder {
+    transform: translateY(-65px);
+}
+
+.star {
+    width: 31.61px;
+    height: 31.61px;
+
+}
+
+.star_text {
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 142%;
+    /* or 21px */
+
+
+    /* Dark */
+
+    color: #090F24;
+}
+
+.pink_but {
+    width: 197px;
+    height: 46px;
+
+    /* Pink */
+
+    background: linear-gradient(180deg, #ED9BC1 0%, #ED9BB9 100%);
+    /* Pink Shadow */
+    font-family: 'Noto Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 176px;
+    margin-top: 25px;
+
+    /* White */
+
+    color: #FFFFFF;
+
+    box-shadow: 0px 2px 4px rgba(237, 155, 193, 0.2);
+    border-radius: 60px;
+    border: none;
+
+
 }
